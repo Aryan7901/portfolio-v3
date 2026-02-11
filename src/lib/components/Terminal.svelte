@@ -8,8 +8,9 @@
     "> status: GPA_4.0_VERIFIED",
     "> scanning_experience: 2+_YEARS",
     "> role_check: SOFTWARE_ENGINEER",
-    "> tech_stack: [ TS, React, React Native, Go, Java, Spring Boot, Python]",
-    "> mission: engineering_high_performance_systems_and_great_user_experiences",
+    "> tech_stack: [ TS, React, React Native, Go,",
+    "> Java, Spring Boot, Python ]",
+    "> mission: engineering_high_performance_systems",
     "> welcome, guest. system_ready.",
   ];
 
