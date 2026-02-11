@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="#0a0a0f" />
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" 
+        fill="#00f3ff" font-family="monospace" font-weight="900" font-size="20"
+        filter="url(#glow)">
+    [A]
+  </text>
+</svg>
