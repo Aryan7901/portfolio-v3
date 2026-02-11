@@ -6,7 +6,7 @@ import urlShortener from "./assets/url-shortener.png";
 import blogMania from "./assets/blogmania.png";
 import dnd from "./assets/dnd.png";
 import nimbu from "./assets/nimbu.png";
-import podcastGen from "./assets/podcast-gen.png"
+import podcastGen from "./assets/podcast-gen.png";
 export const JOBS: IJob[] = [
   {
     role: "Software Engineer",
@@ -117,8 +117,9 @@ export const PROJECTS: IProject[] = [
     name: "Podcast Gen",
     desc: "Podcast gen utilizes an agentic workflow to generate a podcast based on your input (text & images).",
     git: "https://github.com/Aryan7901/Taskly",
-    tech: ["Python","Langgraph","LLMs","Unsloth","React","Typescript"],
+    url: "https://podcast-gen-gray.vercel.app/",
+    tech: ["Python", "Langgraph", "LLMs", "Unsloth", "React", "Typescript"],
     year: "2026",
-    img: podcastGen
+    img: podcastGen,
   },
 ];
