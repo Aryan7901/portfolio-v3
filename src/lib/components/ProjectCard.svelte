@@ -70,7 +70,7 @@
         {project.primaryCtaName
           ? project.primaryCtaName
           : project.gitBackend
-            ? "FRONTEND_SRC"
+            ? "FRONTEND"
             : "SOURCE_CODE"}
       </a>
     {/if}
@@ -82,7 +82,7 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        BACKEND_SRC
+        BACKEND
       </a>
     {/if}
 

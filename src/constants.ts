@@ -7,28 +7,46 @@ import blogMania from "./assets/blogmania.png";
 import dnd from "./assets/dnd.png";
 import nimbu from "./assets/nimbu.png";
 import podcastGen from "./assets/podcast-gen.png";
+
 export const JOBS: IJob[] = [
   {
     role: "Software Engineer",
-    company: "CASHFREE PAYMENTS",
-    period: "2023 - 2025",
+    company: "Cashfree Payments",
+    period: "2023 – 2025",
     details: [
-      "Revamped merchant onboarding frontend, boosting completion rate by 30%.",
-      "Increased product selection workflow rate from 50% to 80%.",
-      "Implemented Horizontal Pod Autoscaling on Kubernetes, reducing infra costs by 80%.",
-      "Engineered push notification architecture using Kafka listener in Go.",
-      "Increased test coverage from 0-72% and reduced Sonar bugs by 50%",
+      "Worked on the merchant onboarding web app, owning feature development and continuous improvements to onboarding and landing flows.",
+      "Reworked parts of the React Native merchant app used by 100k+ users to improve user experience and performance.",
+      "Contributed to backend services and APIs supporting onboarding and mobile workflows. Built a mobile push notification service using a Kafka listener for reliable mobile notification delivery."
     ],
   },
   {
-    company: "LENDENCLUB",
+    role: "Software Engineer Intern",
+    company: "Cashfree Payments",
+    period: "2023",
     details: [
-      "Built and deployed production APIs via Python/FastAPI for serving predictive ML models.",
-      "Developed a borrower classification model that reduced manual review time for the risk assessment team.",
-      "Automated email responses to customer queries, improving resolution speed and reducing support load.",
+      "Migrated the merchant mobile app from Kotlin to React Native to support both Android and iOS.",
+      "Built core features on the mobile application like Quick Transfer, Cashgram, Settlements, Transfers Listing screens used by merchants on a daily basis.",
     ],
-    period: "2022",
+  },
+  {
     role: "Data Science Intern",
+    company: "LendenClub",
+    period: "2022",
+    details: [
+      "Built and deployed ML-powered APIs using Python and FastAPI for internal risk workflows.",
+      "Worked on a borrower classification model to reduce manual review effort.",
+      "Automated parts of customer support workflows such as email responses.",
+      "Analyzed chatbot conversations to identify friction points in user interactions.",
+    ],
+  },
+  {
+    role: "Cloud Software Engineer Intern",
+    company: "LDS Infotech",
+    period: "2021",
+    details: [
+      "Helped maintain and monitor AWS infrastructure including EC2, S3, and Lambda.",
+      "Supported client migrations from on-prem systems to cloud environments.",
+    ],
   },
 ];
 
@@ -116,7 +134,7 @@ export const PROJECTS: IProject[] = [
   {
     name: "Podcast Gen",
     desc: "Podcast gen utilizes an agentic workflow to generate a podcast based on your input (text & images).",
-    git: "https://github.com/Aryan7901/Taskly",
+    git: "https://github.com/Aryan7901/podcast-gen",
     url: "https://podcast-gen-gray.vercel.app/",
     tech: ["Python", "Langgraph", "LLMs", "Unsloth", "React", "Typescript"],
     year: "2026",
